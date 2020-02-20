@@ -36,6 +36,7 @@ class App extends Component {
     return (
       //- note on toggle css class through state as well!!! :)
       <div className="App">
+        <h2>Need to change the name of the button</h2>
         <button className="btn btn-lg btn-info" onClick={this.showModal}>Toggle Modal</button>
         <div className={this.state.show ? 'modal': null}>
           <Modal
